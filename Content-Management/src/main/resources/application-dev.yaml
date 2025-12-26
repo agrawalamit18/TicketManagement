@@ -1,0 +1,6 @@
+spring:
+  profiles: dev
+  application:
+    name: Content-Management-Dev
+server:
+  port: 9003

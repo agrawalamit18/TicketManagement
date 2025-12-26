@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Ticket-Management
+server:
+  port: 9001

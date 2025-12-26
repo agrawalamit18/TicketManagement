@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Content-Management
+server:
+  port: 9003
+logging:
+  path: /Users/family/Desktop/IMP/Project/logs
+  level:
+    root: INFO

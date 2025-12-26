@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Ticket-Aggregate
+server:
+  port: 9004
+logging:
+  path: /Users/family/Desktop/IMP/Project/logs
+  level:
+    root: INFO
