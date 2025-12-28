@@ -1,0 +1,19 @@
+package com.content.mgnt.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+
+
+public class RedisService {
+
+    @Autowired
+    private RedisTemplate<String, Object> redisTemplate;
+
+    public void saveValue(String key, Object value) {
+        redisTemplate.opsForValue().set(key, value);
+    }
+
+    public Object getValue(String key) {
+        return redisTemplate.opsForValue().get(key);
+    }
+}
